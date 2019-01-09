@@ -1,8 +1,8 @@
 FROM ubuntu:18.04
 MAINTAINER Darius Felski
-LABEL Description="Visual Studio Code" Version="1.30.1"
+LABEL Description="Visual Studio Code" Version="1.30.2"
 
-ARG VSCODE_VERSION=1.30.1-1545156774
+ARG VSCODE_VERSION=1.30.2-1546901646
 
 # install some basics first
 RUN apt update && apt install -y software-properties-common apt-transport-https wget curl
