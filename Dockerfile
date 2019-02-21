@@ -1,8 +1,8 @@
 FROM debian:9.6
 MAINTAINER Darius Felski
-LABEL Description="Visual Studio Code" Version="1.30.2"
+LABEL Description="Visual Studio Code" Version="1.31.1"
 
-ARG VSCODE_VERSION=1.30.2-1546901646
+ARG VSCODE_VERSION=1.31.1-1549938243
 
 # install vscode and related dependencies
 RUN apt update  \
