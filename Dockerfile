@@ -1,11 +1,11 @@
 FROM debian:9.6
 MAINTAINER Darius Felski
-LABEL Description="Visual Studio Code" Version="1.31.1"
+LABEL Description="Visual Studio Code" Version="1.32.1"
 
-ARG VSCODE_VERSION=1.31.1-1549938243
+ARG VSCODE_VERSION=1.32.1-1552006243
 
 # install vscode and related dependencies
-RUN apt update  \
+RUN apt update \
   && apt install -y curl gpg apt-transport-https \
   \
   && curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg \
